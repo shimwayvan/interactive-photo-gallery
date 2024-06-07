@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <!-- Example of image thumbnail -->
+        <div class="thumbnail" data-full="images/fullsize1.jpg">
+            <img src="images/thumbnail1.jpg" alt="Description of Image 1">
+            <div class="details">Details about Image 1</div>
+        </div>
+        <!-- Repeat similar blocks for more images -->
+    </div>
+
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
